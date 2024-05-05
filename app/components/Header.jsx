@@ -10,6 +10,11 @@ function Header() {
 
   const { data: session, status } = useSession();
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  }
 
   return (
     <header className="bg-black dark:bg-primary relative">
