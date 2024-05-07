@@ -3,7 +3,7 @@ import { signIn } from 'next-auth/react';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-
+import './page.css'
 
 // Validation function
 function validateLoginForm(email, password) {
@@ -71,7 +71,7 @@ function Login() {
 
   return (
     <div className="mx-auto max-w-screen-xl px-4 py-20 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-lg">
+<div class="mx-auto max-w-lg content rounded-lg">
         <h1 className="text-center text-2xl font-bold bg-gradient-to-r from-orange-300 via-red-700 to-red-900 text-transparent bg-clip-text sm:text-3xl">
           Get started
         </h1>
@@ -84,7 +84,7 @@ function Login() {
           onSubmit={handleSubmit}
           className="mb-0 mt-0 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8 "
         >
-          <p className="text-center text-2xl font-bold bg-white text-transparent bg-clip-text sm:text-3xl ">
+          <p className="text-center text-2xl font-bold bg-gradient-to-r from-orange-300 via-red-700 to-red-900 text-transparent bg-clip-text sm:text-3xl ">
             Sign in to your account
           </p>
 
@@ -177,7 +177,7 @@ function Login() {
             Sign in
           </button>
 
-          <p className="text-center text-sm text-gray-500">
+          <p className="text-center text-sm text-white">
             No account?
             <Link className="underline" href="/register">
               Sign up

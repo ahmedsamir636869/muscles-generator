@@ -147,14 +147,13 @@ function Reg() {
               <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl dark:text-white">
                 Welcome to Muscle builder 
               </h1>
-              <p className="mt-4 leading-relaxed text-gray-500 dark:text-gray-400">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-                quibusdam aperiam voluptatum.
+              <p className="mt-4 leading-relaxed text-white dark:text-white">
+                 complete the form to unlock exuclisve featuers
               </p>
             </div>
             <form onSubmit={handleSubmit} className="mt-10 grid grid-cols-6 gap-10">
               <div className="col-span-6 ">
-                <label htmlFor="fullName" className="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800">
+                <label htmlFor="fullName" className="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-white dark:bg-white">
                 <span
     class="absolute start-3 top-3 -translate-y-1/2 text-xs text-black transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs dark:text-black"
   >
@@ -172,7 +171,7 @@ function Reg() {
               </div>
 
               <div className="col-span-6 ">
-                <label htmlFor="email" className="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800">
+                <label htmlFor="email" className="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-white dark:bg-white">
                 <span
     class="absolute start-3 top-3 -translate-y-1/2 text-xs text-black transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs dark:text-black"
   >
@@ -188,7 +187,7 @@ function Reg() {
                 </label>
               </div>
               <div className="col-span-6 sm:col-span-3">
-                <label htmlFor="password" className="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800">
+                <label htmlFor="password" className="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-white dark:bg-white">
                 <span
     class="absolute start-3 top-3 -translate-y-1/2 text-xs text-black transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs dark:text-black"
   >
@@ -205,7 +204,7 @@ function Reg() {
                 </label>
               </div>
               <div className="col-span-6 sm:col-span-3">
-                <label htmlFor="passwordConfirmation" className="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800">
+                <label htmlFor="passwordConfirmation" className="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-white dark:border-gray-700 dark:bg-white">
 <span
     class="absolute start-3 top-3 -translate-y-1/2 text-xs text-black transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs dark:text-black"
   >
@@ -236,13 +235,14 @@ Password Confirmation
                 </label>
               </div>
               <div className="col-span-6">
-                <p className="text-sm text-gray-500 dark:text-gray-400">
+                <p className="text-sm text-white dark:text-white">
                   By creating an account, you agree to our
-                  <a href="#" className="text-gray-700 underline dark:text-gray-200">
+                  
+                  <a href="#" className="text-white underline dark:text-white">
                     terms and conditions
                   </a>
                   and
-                  <a href="#" className="text-gray-700 underline dark:text-gray-200"> privacy policy </a>.
+                  <a href="#" className="text-white underline dark:text-white"> privacy policy </a>.
                 </p>
               </div>
               <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
@@ -253,9 +253,9 @@ Password Confirmation
                     Create an account
                   </button>
                 
-                <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-400">
+                <p className="mt-4 text-sm text-white sm:mt-0 dark:text-white">
                   Already have an account?
-                  <Link href="/login" className="text-gray-700 underline dark:text-gray-200">Log in</Link>.
+                  <Link href="/login" className="text-white underline dark:text-white">Log in</Link>.
                 </p>
               </div>
             </form>

@@ -66,7 +66,7 @@ const Team = () => {
                             <img src="/img1.jpg" alt="" />
                         </div>
                         <div className="textbx">
-                            <h2>Youssef Mohamed <br /><span>Front end Developer</span></h2>
+                            <h2>Youssef Mohamed <br /><span>Frontend Developer</span></h2>
                             <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li>
             <a
@@ -137,7 +137,7 @@ const Team = () => {
         </div>
         <div className="textbx">
           <h2>
-            Saif Ashraf <br /> <span>Back end Developer</span>
+            Saif Ashraf <br /> <span>Backend Developer</span>
           </h2>
           <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li>
@@ -211,7 +211,7 @@ const Team = () => {
         <div className="textbx">
           <h2>
             Fares Ashraf
-            <br /> <span>Front end Developer</span>
+            <br /> <span>Frontend Developer</span>
           </h2>
           <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li>
@@ -283,7 +283,7 @@ const Team = () => {
         </div>
         <div className="textbx">
           <h2>
-            Mohamed Saeed <br /> <span>Front end Developer</span>
+            Mohamed Saeed <br /> <span>Frontend Developer</span>
           </h2>
           <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li>
@@ -355,7 +355,7 @@ const Team = () => {
         </div>
         <div className="textbx">
           <h2>
-            Hassan Mohamed <br /> <span>Back end Developer</span>
+            Hassan Mohamed <br /> <span>Backend Developer</span>
           </h2>
           <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li>
@@ -428,7 +428,7 @@ const Team = () => {
         </div>
         <div className="textbx">
           <h2>
-            Ahmed Samir <br /> <span>Back end Developer</span>
+            Ahmed Samir <br /> <span>Frontend Developer</span>
           </h2>
           <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li>

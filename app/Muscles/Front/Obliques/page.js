@@ -9,13 +9,13 @@ function chest() {
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
         <img
         alt=""
-        src="https://planfit-images.s3.ap-northeast-2.amazonaws.com/training-videos-watermarked/5019.mp4"
+        src="https://fitnessprogramer.com/wp-content/uploads/2022/07/Cross-Crunch.gif"
         className="w-full h-full object-cover"
         />
 
   <div className="bg-white p-4 sm:p-6">
     <a href="#">
-      <h3 className="mt-0.5 text-lg text-gray-900">Hand Side Plank</h3>
+      <h3 className="mt-0.5 text-lg text-gray-900">CROSS CRUNCH</h3>
     </a>
 
     <ol className='mt-2 text-sm text-gray-500 pl-2'>
@@ -32,20 +32,20 @@ function chest() {
       <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
   <img
     alt=""
-    src=""
+    src="https://fitnessprogramer.com/wp-content/uploads/2021/02/plank.gif"
     className="h-full w-full object-cover"
   />
 
   <div className="bg-white p-4 sm:p-6">
 
-    <h3 className="mt-0.5 text-lg text-gray-900"></h3>
+    <h3 className="mt-0.5 text-lg text-gray-900"> Plank</h3>
 
     <ol className='mt-2 text-sm text-gray-500 pl-2'>
-      <li> </li>
+      <li> Press your elbow into the floor.</li>
       <br></br>
-      <li></li>
+      <li>    Pick your hips up off the ground and maintain this position for the allotted amount of time.</li>
       <br></br>
-      <li></li>
+      <li>Make sure you don't let your chest fall forward or backward.</li>
     </ol>
     
     {/* <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
@@ -59,20 +59,20 @@ function chest() {
       <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
       <img
         alt=""
-        src=""
+        src="https://gymvisual.com/img/p/5/2/6/8/5268.gif"
         className="h-full w-full object-cover"
       />
 
         <div className="bg-white p-4 sm:p-6">
 
-    <h3 className="mt-0.5 text-lg text-gray-900"></h3>
+    <h3 className="mt-0.5 text-lg text-gray-900">Kettlebell Windmill</h3>
 
     <ol className='mt-2 text-sm text-gray-500 pl-2'>
-      <li> </li>
+      <li>Stand with feet slightly wider than shoulder width apart. Hold the kettlebell in one hand and extend your arm above your head. </li>
       <br></br>
-      <li></li>
+      <li>Keeping your legs straight and the kettlebell above your head, lower the relaxed arm towards the ground, twisting your body towards the side of the raised arm.</li>
       <br></br>
-      <li></li>
+      <li>    Return to the starting potion, tilt your pelvis forward and repeat.</li>
     </ol>
     
     {/* <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
@@ -86,20 +86,20 @@ function chest() {
       <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
   <img
     alt=""
-    src=""
+    src="https://gymvisual.com/img/p/2/1/5/4/8/21548.gif"
     className="h-full w-full object-cover"
   />
 
   <div className="bg-white p-4 sm:p-6">
 
-    <h3 className="mt-0.5 text-lg text-gray-900"></h3>
+    <h3 className="mt-0.5 text-lg text-gray-900">Dumbbell Russian Twist</h3>
 
     <ol className='mt-2 text-sm text-gray-500 pl-2'>
-      <li> </li>
+      <li>Sit on the floor and flex your knees and hips to a 90 degree angle. </li>
       <br></br>
-      <li></li>
+      <li>    Your feet should be hovering off the ground. (If that's too hard start with heels on the floor)</li>
       <br></br>
-      <li></li>
+      <li>    Rotate your upper spine to engage your obliques.</li>
     </ol>
     
     {/* <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
